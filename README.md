@@ -60,5 +60,21 @@
     - sr.value_counts()
   - **함수 적용**
     - **sr.apply** : 조건별 연산이 가능!!
-  - EDA
+  - EDA: 데이터 자체에서 인사이트를 얻는 방법
     - pd.cut( data, bins= , labels ) : 도수분포표
+    - 비율
+    - 시각화
+<code>
+  sr.plot(    
+  kind    = 'bar',
+  figsize = (8,6), # inch단위
+  title   = '국어 성적', # 그래프 제목
+  legend  = True, # 그래프 상단에 값표시
+  grid    = True, # 그래프 그리드 표시
+  ylim    = (0,70), # y축 범위 
+  rot     = 30, # x축 글자 회전 각도
+  fontsize = 15
+        )    
+  plt.show()
+</code>
+    - 이상치
