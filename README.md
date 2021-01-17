@@ -35,6 +35,7 @@
     - numpy에서 '|'로 사용했던 조건을 isin으로 줄 수 있음
   - not은 ~로 주기
     - numpy와 같음
+  <br>
 - 5. 추가, 수정, 삭제, 검색, 정렬
   - sr.append( )
   - 삭제
@@ -49,6 +50,7 @@
         - sr.str :  문자열 인덱싱 슬라이싱
         - sr.str.contains : 문자열 검색
         - sr.str.replace : 문자열 대체
+    <br>
 - 6. 통계
   - 주요 속성
     - sr.nlargest(n, keep)
